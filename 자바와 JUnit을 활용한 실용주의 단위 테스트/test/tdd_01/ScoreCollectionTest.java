@@ -2,7 +2,10 @@ package tdd_01;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import org.junit.*;
+
 class ScoreCollectionTest {
 
     @Test
@@ -16,6 +19,6 @@ class ScoreCollectionTest {
         int result = scoreCollection.arithmeticMean();
 
         // 단언
-        assertThat
+        assertThat(result, equalTo(6));
     }
 }
