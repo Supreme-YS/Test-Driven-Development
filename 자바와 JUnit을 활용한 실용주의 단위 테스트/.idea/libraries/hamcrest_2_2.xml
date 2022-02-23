@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="hamcrest-2.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/java/hamcrest-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hamcrest-2.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
