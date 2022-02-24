@@ -5,7 +5,7 @@ public class Answer {
     private int i;
     private Question question;
 
-    public Answer(int i, Question question) {
+    public Answer(Question question, int i) {
         this.i = i;
         this.question = question;
     }
