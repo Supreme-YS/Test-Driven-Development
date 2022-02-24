@@ -21,7 +21,5 @@ public class ScoreCollectionTest {
         // Assert
         // Fail Test
         assertThat(actualResult, equalTo(7));
-
-
     }
 }
